@@ -1,5 +1,11 @@
+import Navbar from "./components/Navbar";
+
 function App() {
-  return <></>;
+  return (
+    <div className="overflow-x-hidden">
+      <Navbar />
+    </div>
+  );
 }
 
 export default App;
