@@ -1,5 +1,3 @@
-import React from "react";
-
 import { FaCaretDown, FaUser } from "react-icons/fa";
 const NavLinks = [
   {
