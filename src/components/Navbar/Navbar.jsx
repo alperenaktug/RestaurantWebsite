@@ -39,7 +39,7 @@ const DropdownLinks = [
 function Navbar({ HandlePopup }) {
   return (
     <>
-      <div className="bg-white shadow-md">
+      <div data-aos="fade" className="bg-sky-200 shadow-md">
         <div className="container flex justify-between py-4 sm:py-3">
           <div className="font-bold">N&F</div>
           <div>
@@ -48,14 +48,14 @@ function Navbar({ HandlePopup }) {
                 <li key={id}>
                   <a
                     href={link}
-                    className="inline-block hover:text-primary text-xl font-semibold"
+                    className=" hidden sm:inline-block hover:text-primary text-xl font-semibold"
                   >
                     {name}
                   </a>
                 </li>
               ))}
 
-              <li className="cursor-pointer group  ">
+              <li className=" hidden md:block cursor-pointer group  ">
                 <a
                   href="
                 /#"
@@ -86,7 +86,7 @@ function Navbar({ HandlePopup }) {
               <li>
                 <button
                   onClick={HandlePopup}
-                  className="flex justify-center items-center gap-2 bg-secondary text-xl h-[40px] text-white px-5 py-2 hover-scale-105 duration-300"
+                  className="flex justify-center items-center gap-2 bg-secondary text-xl h-[40px] text-white px-2 md:px-5 py-2 hover-scale-105 duration-300"
                 >
                   <FaUser />
                   My Account

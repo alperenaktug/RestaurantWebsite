@@ -17,11 +17,18 @@ function About({ HandlePopup }) {
   return (
     <div style={bgStyle} className="py-14">
       <div className="container min-h-[500px] relative z-10">
-        <h1 className="pt-20 tracking-wider text-4xl font-semibold text-white text-center">
+        <h1
+          data-aos="fade"
+          className="pt-20 tracking-wider text-4xl font-semibold text-white text-center"
+        >
           About Us
         </h1>
 
-        <div className="bg-white/80 p-10 my-10">
+        <div
+          data-aos="fade"
+          data-aos-delay="300"
+          className="bg-white/80 p-10 my-10"
+        >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quia
           veritatis nulla suscipit, ex labore molestias. Ullam voluptatem
           perspiciatis obcaecati nostrum dignissimos? Beatae voluptas deleniti

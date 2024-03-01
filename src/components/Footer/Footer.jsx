@@ -5,7 +5,10 @@ function Footer() {
   return (
     <>
       <div className="text-white mt-20">
-        <div className="container bg-gradient-to-b from-primary to-primaryDark">
+        <div
+          data-aos="fade-down"
+          className="container bg-gradient-to-b from-primary to-primaryDark"
+        >
           <div>
             <h1 className="py-10 text-3xl font-bold text-yellow text-center">
               Contact Us

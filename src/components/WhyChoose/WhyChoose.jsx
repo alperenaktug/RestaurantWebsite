@@ -5,10 +5,13 @@ function WhyChoose() {
     <>
       <div className="py-14 md:py-28 bg-gray-50">
         <div className="container">
-          <h1 className="py-8 tracking-wider text-2xl font-semibold text-dark text-center">
+          <h1
+            data-aos="fade"
+            className="py-8 tracking-wider text-2xl font-semibold text-dark text-center"
+          >
             Why Choose Us
           </h1>
-          <div>
+          <div data-aos="fade " data-aos-delay="300">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-14 sm:gap-4">
               <div className="flex text-center justify-center items-center flex-col gap-2 px-2">
                 <p className="text-dark/70 font-semibold">
@@ -21,8 +24,8 @@ function WhyChoose() {
               </div>{" "}
               {/* Close the first grid item div here */}
               <div className="flex text-center justify-center items-center flex-col gap-2 px-2">
-                <FaBus className="text-5xl text-secondary" />
-                <p className="text-5xl rotate-90 text-secondary text-center translate-x-5">
+                <FaBus className="text-5xl text-sky-300" />
+                <p className="text-5xl rotate-90 text-sky-300 text-center translate-x-5">
                   ...
                 </p>
                 <p className="text-dark/70 font-semibold">
@@ -40,7 +43,7 @@ function WhyChoose() {
               </div>{" "}
               {/* Close the first grid item div here */}
               <div className="flex text-center justify-center items-center flex-col gap-2 px-2">
-                <FaBus className="text-5xl text-secondary" />
+                <FaBus className="text-5xl text-sky-300" />
                 <p className="text-5xl rotate-90 text-secondary text-center translate-x-5">
                   ...
                 </p>
